@@ -20,7 +20,7 @@ class Arrays {
 		int t = 1;
 		
 //		If you have more than 1 test cases uncomment the below line
-		t = Integer.parseInt(read.readLine());
+//		t = Integer.parseInt(read.readLine());
 
 		while (t-- > 0) {
 
