@@ -27,7 +27,8 @@ class Metrix {
 	public static void main(String args[]) throws IOException {
 		Scanner sc = new Scanner(System.in);
 		int t = 1;
-		t = sc.nextInt();
+//		if you have mare than  test cases uncomment the below code
+//		t = sc.nextInt();
 
 		while (t > 0) {
 			System.out.println("Enter the number of rows:");
