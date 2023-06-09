@@ -1,6 +1,8 @@
 package dsa;
 
-import java.io.*;
+import java.io.IOException;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 
 class Arrays {
 	public static int search(int arr[], int N, int X) {
@@ -18,7 +20,6 @@ class Arrays {
 		BufferedReader read = new BufferedReader(new InputStreamReader(System.in));
 		System.out.println("Enter the number of test cases:");
 		int t = 1;
-		
 //		If you have more than 1 test cases uncomment the below line
 //		t = Integer.parseInt(read.readLine());
 

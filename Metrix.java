@@ -1,7 +1,7 @@
 package dsa;
 
-import java.io.*;
-import java.util.*;
+import java.io.IOException;
+import java.util.Scanner;
 
 class Metrix {
 	static int[][] createMatrix(int rows, int columns) {
@@ -27,7 +27,7 @@ class Metrix {
 	public static void main(String args[]) throws IOException {
 		Scanner sc = new Scanner(System.in);
 		int t = 1;
-//		if you have mare than  test cases uncomment the below code
+//		if you have more than  test cases uncomment the below code
 //		t = sc.nextInt();
 
 		while (t > 0) {
