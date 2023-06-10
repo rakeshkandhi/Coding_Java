@@ -28,18 +28,17 @@ class Arrays {
 			System.out.println("Enter the size of array:");
 			int sizeOfArray = Integer.parseInt(read.readLine());
 
-			int arr[] = new int[sizeOfArray];
+			int array[] = new int[sizeOfArray];
 
 			System.out.println("Enter the array elements seperated by spaces:");
 			String st[] = read.readLine().trim().split("\\s+");
 
 			for (int i = 0; i < sizeOfArray; i++)
-				arr[i] = Integer.parseInt(st[i]);
-
+				array[i] = Integer.parseInt(st[i]);
 			System.out.println("Enter the search element:");
 			int x = Integer.parseInt(read.readLine());
 
-			System.out.println(search(arr, sizeOfArray, x));
+			System.out.println(search(array, sizeOfArray, x));
 		}
 	}
 }
